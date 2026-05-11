@@ -1,0 +1,28 @@
+/* ... (កូដផ្សេងទៀត, ដូចកូដមុន) ... */
+
+/* --- Media Query សម្រាប់ Mobile (ក្រោម 992px) --- */
+@media screen and (max-width: 992px) {
+    /* ... (nav, checkbtn, ដូចកូដមុន) ... */
+
+    .about-content {
+        flex-direction: column; /* ឱ្យធ្លាក់ជួរចុះក្រោមលើទូរស័ព្ទ */
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .about-image {
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 300px; /* បង្រួមរូបភាពឱ្យតូចសមអេក្រង់ទូរស័ព្ទ */
+        height: auto;
+    }
+
+    .about-text {
+        margin: 0 20px;
+        padding-top: 40px;
+        text-align: center; /* ឱ្យអក្សរនៅចំកណ្តាល */
+    }
+}
